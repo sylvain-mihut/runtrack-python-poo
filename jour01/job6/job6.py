@@ -8,15 +8,15 @@
 class Rectangle:
 
     def __init__(self):
-        self.__longeur = ""
+        self.__longueur = ""
         self.__largeur = ""
 
-    def setDim(self, longeur, largeur):
-        self.__longeur = longeur
+    def setDim(self, longueur, largeur):
+        self.__longueur = longueur
         self.__largeur = largeur 
 
     def getDim(self):
-        return self.__longeur, self.__largeur
+        return self.__longueur, self.__largeur
 
 rectangle = Rectangle() 
 
